@@ -66,6 +66,42 @@ For example:
 
 Ideally, the grader should be able to highlight a section of any submitted document, and type a comment to show to the user about that section of code or text. Things like "You lost some marks here because you didn't do such-and-such a thing that was stated in the assignment brief". This would be helpful for obvious reasons, and if it was very easy to do (literally highlight, click and type a comment) then graders might actually use it. A culture of detailed constructive feedback is quite clearly beneficial to the student.
 
+For example:
+
+        _____________________________________________________________
+       | FireSheep Wub Br0wsor                                    - X|
+       |_____________________________________________________________|
+       |                                                             |
+       |    Assignment 5                                             |
+       |                                                             |
+       |     ______________________________                          |
+       |    |                              |                         |
+       |    | * * * * * 1 * * * * * *      |  Comment 1:             |
+       |    | * int main (void) {   *      |  _____________________  |
+       |    | * * * * * * * * * * * *      | |                     | |
+       |    |       printf("%d==D", 8);    | | In class we learned | |
+       |    |       return 0;              | | "main" is supposed  | |
+       |    |   }                          | | to take an int and  | |
+       |    |                              | | a char**.           | |
+       |    |                              | |_____________________| |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |                              |                         |
+       |    |______________________________|                         |
+       |                                                             |
+       |                                                             |
+       |                                                             |
+       |_____________________________________________________________|
+
+Obviously this mockup is a mockup. The asterisk surrounded region could be a highlighted CSS roundrect, the comment box too, the comments mightn't necessarily be identified by integers, etc.
+
 ## Admin Visible
 
 ### Grading Interface
