@@ -42,6 +42,26 @@ The user should be able to view their ranking within the class. If they are stru
 
 The ranking graphic should be anonymous, and should not be able to be misused to divine the grades of other people enrolled in the class. A good solution would be a frequency distribution of marks in the class, with percentile along X in bins, each of width 10%, and frequency along Y. There should be a single data point on the graph, at the top of the bin into which the user falls. Ideally, a trace of the bins (a pretty curve) should be shown, as opposed to an actual histogram.
 
+For example:
+
+                |
+                |
+                |
+            F   |
+            r   |                             .   .
+            e   |                         . *  
+            q   |                     .               .
+            u   |         .   .   .
+            e   |     .
+            n   | .
+            c   |
+            y   |___.___.___.___.___.___.___.___.___.___.
+                0%  10  20  30  40  50  60  70  80  90  100%
+                              
+                              Average Grade
+                
+                * == You
+
 #### Detailed Feedback
 
 Ideally, the grader should be able to highlight a section of any submitted document, and type a comment to show to the user about that section of code or text. Things like "You lost some marks here because you didn't do such-and-such a thing that was stated in the assignment brief". This would be helpful for obvious reasons, and if it was very easy to do (literally highlight, click and type a comment) then graders might actually use it. A culture of detailed constructive feedback is quite clearly beneficial to the student.
