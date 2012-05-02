@@ -66,6 +66,12 @@ The grading interface should allow an admin to:
 Administrators should be able to modify system parameters, such as:
 
 1. The maximum upload size for submissions
+2. Number of submission attempts per time period (avoid DoS)
+3. Number of download attempts for submitted assignments per time period (avoid DoS)
+4. User roles for administrators (can create new assignments, can create new courses, etc.)
+5. Versioning backend for submissions (if multiple supported), versioning backend parameters
+6. Data store (if multiple supported), data store parameters (db location etc. etc.)
+7. Themes? (shudder)
     
 ## Backend
 
