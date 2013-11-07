@@ -102,6 +102,8 @@ For example:
 
 Obviously this mockup is a mockup. The asterisk surrounded region could be a highlighted CSS roundrect, the comment box too, the comments mightn't necessarily be identified by integers, etc.
 
+The Open Knowledge Foundation's [Annotator](http://okfnlabs.org/annotator/) would be eminently suitable for this task.
+
 ## Admin Visible
 
 ### Grading Interface
