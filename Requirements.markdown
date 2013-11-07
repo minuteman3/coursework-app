@@ -20,6 +20,8 @@ Authentication should happen. It should ideally be against some external authent
 
 Authentication should time out, and the timeout should be user-configurable.
 
+[Mozilla Persona](http://www.mozilla.org/en-US/persona/) would make an effective authentication and authorization platform. Suitability would need to be explored, and ideally the application could be fully abstracted from its authentication service and provide an interface to which various authentication services can be easily connected.
+
 ### Configuration
 
 The user should be able to configure some things. Username and password should not be configurable, and ideally should never pass through the application at all, if it uses an external authentication service. They absolutely should never be stored anywhere by the application or even be resident in the application's memory after authentication is complete.
